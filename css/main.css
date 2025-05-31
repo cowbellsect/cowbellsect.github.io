@@ -15,6 +15,14 @@ body {
     overflow-x: hidden;
 }
 
+.logo {
+  width: 300px;
+  max-width: 90vw;
+  height: auto;
+  display: block;
+  margin: 40px auto 20px auto;
+}
+
 body::before {
     content: "";
     position: fixed;
@@ -45,8 +53,10 @@ header, main {
     box-sizing: border-box;
 }
 
-header h1 {
-    font-size: 36px;
+.logo {
+    display: block;
+    max-width: 100%;
+    height: auto;
     margin-bottom: 20px;
 }
 
@@ -69,7 +79,7 @@ a:hover, a:active, a:visited {
 /* Card container styles */
 .carrd-container {
     width: 100%;
-    min-height: 650px; /* Изменил height на min-height */
+    min-height: 650px;
     margin: 20px 0 40px;
     position: relative;
 }
@@ -86,7 +96,7 @@ a:hover, a:active, a:visited {
 .carrd-iframe {
     border-radius: 15px;
     width: 100%;
-    height: 550px; /* Фиксированная высота iframe */
+    height: 550px;
     border: none;
 }
 
